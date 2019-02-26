@@ -1,0 +1,133 @@
+/*
+Theme Name:     Heading News
+Theme URI:      https://codevibrant.com/wpthemes/heading-news
+Author:         CodeVibrant
+Author URI:     https://codevibrant.com
+Description:    Heading News is a child theme of News Vibrant modern magazine WordPress theme, with creative design and powerful features that lets you write articles and blog posts with ease. It uses the best clean SEO practices, responsive HTML5, and on top of that, it’s fast, simple, and easy to use.  Use the Customizer to add your own background, page layout, site width and more.
+Version:        1.0.0
+License:        GNU General Public License v3 or later
+License URI:    http://www.gnu.org/licenses/gpl-3.0.html
+Template:       news-vibrant
+Text Domain:    heading-news
+Tags:           news, blog, grid-layout, custom-colors, one-column, two-columns, three-columns, left-sidebar, right-sidebar, custom-logo, footer-widgets, full-width-template, translation-ready
+*/
+
+.nv-top-header-wrap {
+	background: #f4f4f4;
+	padding: 12px 0;
+}
+
+.nv-top-left-section-wrapper .date-section{
+	color: #707070;
+}
+
+.nv-top-right-section-wrapper .social-link a {
+	font-size: 15px;
+	margin-left: 18px;
+    color: #F83C5F;
+}
+
+.nv-top-right-section-wrapper .social-link .fa-facebook,
+.nv-top-right-section-wrapper .social-link  .fa-facebook-f {
+    color: #3350ae;
+}
+
+.nv-top-right-section-wrapper .social-link .fa-twitter {
+    color: #1eaaff;
+}
+
+.nv-top-right-section-wrapper .social-link .fa-linkedin {
+    color: #0084d7;
+}
+
+.nv-top-right-section-wrapper .social-link .fa-youtube-play {
+    color: #c70504;
+}
+
+.nv-top-right-section-wrapper .social-link .fa-instagram {
+    color: #ff7900;
+}
+
+.nv-top-right-section-wrapper .social-link .fa-pinterest {
+    color: #e02828;
+}
+
+.nv-top-right-section-wrapper .social-link .fa-google-plus {
+    color: #e02828;
+}
+
+.nv-top-right-section-wrapper .social-link .fa-vimeo {
+    color: #15DEFF;
+}
+
+.nv-header-menu-wrapper {
+	background: #292637;
+}
+
+.news-ticker-title > a {
+	font-weight: 700;
+}
+
+.nv-block-title-nav-wrap {
+	position: static;
+}
+
+.nv-block-wrapper.carousel-posts.layout1 {
+	position: relative;
+	overflow: hidden;
+}
+
+.nv-block-title-nav-wrap .carousel-nav-action {
+	top: 50%;
+	left: 0;
+	right: auto;
+	z-index: 99;
+	-moz-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: 100%;
+}
+
+.nv-block-title-nav-wrap .carousel-nav-action .carousel-controls {
+	padding: 10px 20px;
+	font-size: 24px;
+	margin-left: -50px;
+}
+
+.nv-block-title-nav-wrap .carousel-nav-action .nv-navNext.carousel-controls {
+	float: right;
+}
+
+.nv-block-title-nav-wrap .carousel-nav-action .nv-navNext.carousel-controls {
+	float: right;
+	margin-right: -50px;
+}
+
+.nv-block-wrapper.carousel-posts.layout1:hover .carousel-nav-action .carousel-controls{
+    margin-left: 0;
+}
+
+.nv-block-wrapper.carousel-posts.layout1:hover .carousel-nav-action .nv-navNext.carousel-controls {
+    margin-right: 0;
+}
+
+#site-navigation ul li a {
+	color: #fff;
+}
+
+#site-navigation ul.sub-menu, #site-navigation ul.children {
+	background: #292637;
+}
+
+.search-main {
+	color: #fff;
+}
+
+@media (max-width: 768px) {
+#site-navigation ul {
+	background: #292637;
+}
+.menu-toggle{
+    color: #fff !important;
+}
+}
